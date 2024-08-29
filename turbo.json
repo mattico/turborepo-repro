@@ -1,0 +1,16 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "extends": ["//"],
+    "tasks": {
+      "version": {
+        "cache": false,
+        "outputs": ["version.txt"]
+      },
+      "build": {
+        "dependsOn": ["version"],
+        "inputs": ["$TURBO_DEFAULT$", "version.txt", "index.js"],
+        "outputs": ["build"]
+      }
+    }
+  }
+  

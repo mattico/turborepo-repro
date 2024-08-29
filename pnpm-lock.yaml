@@ -1,0 +1,78 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      turbo:
+        specifier: 2.0.15-canary.4
+        version: 2.0.15-canary.4
+
+packages:
+
+  turbo-darwin-64@2.0.15-canary.4:
+    resolution: {integrity: sha512-eC6EjLwDTDXb43H7U7cvynGIsfaGfDrkdKvHlLmVMOfCXu+rZz80CWUizzQKcc15fcu+O+0CaXt0B8k2Y9Haow==}
+    cpu: [x64]
+    os: [darwin]
+
+  turbo-darwin-arm64@2.0.15-canary.4:
+    resolution: {integrity: sha512-lXJmrBbpZ09i3XwjD25YfzeoY/Xhg7vzmD3MmIhBPfXSTR9sNpFafvsTsmsdn/rzlgkmzdoJ7MUnxKP+SNNfhw==}
+    cpu: [arm64]
+    os: [darwin]
+
+  turbo-linux-64@2.0.15-canary.4:
+    resolution: {integrity: sha512-zEXlMef+v5pxEZvkWtf8F8sB1nqoXAmaVyIwSaMUOiUPJsBiiOw22+PrMmNb7hiAP7dcA29jb38V4aNdeO9asA==}
+    cpu: [x64]
+    os: [linux]
+
+  turbo-linux-arm64@2.0.15-canary.4:
+    resolution: {integrity: sha512-Vqij2z4P8g+Z85TsSCU2K8JApV+kN7QdDcZSb5UUknId7hy07CZjpuoAjy+AmraIV8ZKhRjujWyXk7Xo1ibVhg==}
+    cpu: [arm64]
+    os: [linux]
+
+  turbo-windows-64@2.0.15-canary.4:
+    resolution: {integrity: sha512-Xh+3lcK+HNreskl0glsV9qxKm4GLk9TZISSat7jWUM31c3T3GO9VQqsjKacbbbOwCUslHeciJirRxaQ/TWLrBQ==}
+    cpu: [x64]
+    os: [win32]
+
+  turbo-windows-arm64@2.0.15-canary.4:
+    resolution: {integrity: sha512-2Nka2r4lt8FCcf3r9yh718fnceL9OEHVkvDv4YUyuYgDVId4Ej9xToPlUo0gT+6uxw0wRFAxt5xorGoTDrlLvw==}
+    cpu: [arm64]
+    os: [win32]
+
+  turbo@2.0.15-canary.4:
+    resolution: {integrity: sha512-x1X4Fh9mjYNNQjyRiIXerIBFWzKGo8ty8qwSWhKUWAX8/h1ooLz4lDOoAe5Ya3dv7TJLnDVXukomR52/zD89Zw==}
+    hasBin: true
+
+snapshots:
+
+  turbo-darwin-64@2.0.15-canary.4:
+    optional: true
+
+  turbo-darwin-arm64@2.0.15-canary.4:
+    optional: true
+
+  turbo-linux-64@2.0.15-canary.4:
+    optional: true
+
+  turbo-linux-arm64@2.0.15-canary.4:
+    optional: true
+
+  turbo-windows-64@2.0.15-canary.4:
+    optional: true
+
+  turbo-windows-arm64@2.0.15-canary.4:
+    optional: true
+
+  turbo@2.0.15-canary.4:
+    optionalDependencies:
+      turbo-darwin-64: 2.0.15-canary.4
+      turbo-darwin-arm64: 2.0.15-canary.4
+      turbo-linux-64: 2.0.15-canary.4
+      turbo-linux-arm64: 2.0.15-canary.4
+      turbo-windows-64: 2.0.15-canary.4
+      turbo-windows-arm64: 2.0.15-canary.4
