@@ -8,7 +8,7 @@
       },
       "build": {
         "dependsOn": ["version"],
-        "inputs": ["$TURBO_DEFAULT$", "version.txt", "index.js"],
+        "inputs": ["version.txt", "index.js"],
         "outputs": ["build"]
       }
     }
